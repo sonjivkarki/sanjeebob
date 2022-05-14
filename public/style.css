@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    text-align: center;
+    background-image: url("/bg.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    background-color: rgb(43, 124, 59);
+    padding: 20px;
+    border-radius: 90px;
+    box-shadow: 2px 10px rgb(17, 66, 27);
+}
+
+.candidates{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.candidateimage{
+    width:  200px;
+    height: 200px;
+}
+
+.candidate{
+    text-align: center;
+    padding: 10px;
+    background: rgb(0, 135, 72);
+    margin: 20px;
+    border: rgb(105, 105, 105);
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px rgb(17, 66, 27);
+}
+
+#heading{
+    color: aliceblue;
+    font-size: xx-large;
+}
